@@ -9,4 +9,7 @@ var vards = document.querySelector("#vards");
 function sutitZinu(){
     console.log("poga darbojas");
     console.log("ziņu ir: "+zina.value);
+
+    logs.innerHTML = logs.innerHTML +"</br>"+ zina.value;
+
 }
